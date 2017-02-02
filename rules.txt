@@ -1,0 +1,25 @@
+### 3.1 NUMBER ###
+
+define NUMBER [%+PL:{<AEÖO>k} | %+SG:0];
+
+
+### 3.2 POSSESSION ###
+
+                   # SINGULAR                       PLURAL
+define POSS [  %+SG%+1SG%-POSS:{<AEÖO>m} | %+PL%+1SG%-POSS:{<JAE>im}     |
+               %+SG%+2SG%-POSS:{<AEÖO>d} | %+PL%+2SG%-POSS:{<JAE>id}     |
+               %+SG%+3SG%-POSS:{<JAE2>}  | %+PL%+3SG%-POSS:{<JAE>i}      |
+               %+SG%+1PL%-POSS:{<ÜU>nk}  | %+PL%+1PL%-POSS:{<JAE>ink}    |
+               %+SG%+2PL%-POSS:{<AEÖOT>k}| %+PL%+2PL%-POSS:{<JAEIT>k}    |
+               %+SG%+3PL%-POSS:{j<ÜU>k}  | %+PL%+3PL%-POSS:{<JAE>ik}    ];
+
+
+### 3.3 CASE ###
+
+define CASE [  %+NOM:0 |
+        %+ACCUSATIVE:{<AEÖO>t} |
+            %+DATIVE:{n<AE>k}  |
+           %+INESIVE:{b<AE>n}  |
+          %+ILLATIVE:{b<AE>}   |
+         %+SUBLATIVE:{r<AE>}  ];
+

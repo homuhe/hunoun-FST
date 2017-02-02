@@ -1,0 +1,8 @@
+## VOWELS & CONSONANTS ##
+define HIGHVOWEL  [ e | é | ö | ő | ü | ű | i | í ];
+define LOWVOWEL   [ a | á | o | ó | u | ú ];
+define HRVOWEL    [ ö | ő | ü | ű ];          #high rounded vowels
+define HURVOWEL   [ e | é | i | í ];          #high unrounded vowels
+define VOWEL      [HIGHVOWEL | LOWVOWEL];
+
+define CONSONANT [b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z];
